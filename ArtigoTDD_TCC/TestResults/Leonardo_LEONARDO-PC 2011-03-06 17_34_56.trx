@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="34809c09-a5a8-42bb-bade-a010718de778" name="Leonardo@LEONARDO-PC 2011-03-06 17:34:56" runUser="Leonardo-PC\Leonardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="47cffa84-a7f2-46ef-8732-60ad7fddbcdb">
+    <Deployment runDeploymentRoot="Leonardo_LEONARDO-PC 2011-03-06 17_34_56">
+      <DeploymentItem filename="c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC\bin\ArtigoTDD_TCC.dll" />
+      <DeploymentItem filename="c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-03-06T17:34:56.4695737-03:00" queuing="2011-03-06T17:34:56.8215939-03:00" start="2011-03-06T17:34:57.0016042-03:00" finish="2011-03-06T17:34:58.9977183-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="20" executed="20" passed="20" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="0fa92ca5-d87c-04ec-94ba-8c57dbd11221">
+      <Execution id="0d01df9e-427c-47c1-9691-27a9baf4cc84" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Informar_usuario_e_ou_senha_invalidos_e_efetuar_falha_no_login" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="f0d27ebb-ab90-6625-a725-b12e034b23d1">
+      <Execution id="0287c60d-ef53-414e-95d5-885dacbcc919" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_usuario_e_ou_senha_invalidos_e_efetuar_falha_no_login" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="ceb14b20-2118-1ef5-3d4b-f3eafb6ed397">
+      <Execution id="e440b268-3045-4823-8b72-30067102b033" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectToHomeOnSuccess_WithExternalReturnUrl" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="ac594a04-d428-3df0-6312-7e375af031f8">
+      <Execution id="8b2d0257-285d-4707-b025-39fe6c8aa214" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectToHomeOnSuccess_WithExternalReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithLocalReturnUrl" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="d2ceca80-fe91-0a46-7781-ab0a2a2b4e27">
+      <Execution id="d55d68f4-7ec2-46a9-865b-605865e3b3a7" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithLocalReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="9a8dc1a1-16a9-f293-e157-1c8af0b24583">
+      <Execution id="d3958bf0-8ddf-4005-a7af-80446d863789" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="c164f56f-3d51-cbd3-d2fd-f9ce588d7ead">
+      <Execution id="44a9a785-93d1-4ee2-8c71-4e56ba4a2531" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="7a4694ca-6ad6-3dde-2905-1103642c9e33">
+      <Execution id="07c77321-7838-429d-9b4b-da9704f2bf32" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="39225342-3ad1-fb0f-938e-575748c28a43">
+      <Execution id="5035a20a-20c6-479f-95fc-b1b0e1637693" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="07022018-9b8d-7b34-1206-f302a806f992">
+      <Execution id="fc2b4dd6-f777-4357-89c0-f5027501616c" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="c1666556-e7b3-b013-7e6e-74dfa6c8e65b">
+      <Execution id="bc963c9f-9e20-4a14-8090-ad42853c16fa" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="7770dd85-cc99-ab76-fc48-0f40e00b6d62">
+      <Execution id="ab23f659-53a4-48f9-af11-e19462939a21" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.HomeControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="dc711f06-458d-174d-1871-b753f6f7737a">
+      <Execution id="efaa0a30-970a-4df8-886b-567dd4d307d4" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="d1cb6185-b07b-8643-4246-b191d0a7f8c8">
+      <Execution id="5ce065b8-122d-4af9-a588-28b54ab38db1" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="2168cec1-28d9-02ec-cb45-1e2e364559d9">
+      <Execution id="ec1f5aeb-1ea4-4293-96b5-c6ab5d88d71b" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="c3135ccd-2364-dda3-2269-82afed583016">
+      <Execution id="be763433-ac13-46d1-9544-a416d55f4a67" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="Informar_usuario_e_senha_validos_e_efetuar_o_login" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05">
+      <Execution id="046423d5-4b4c-438d-b758-cb45d6df13a6" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_usuario_e_senha_validos_e_efetuar_o_login" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="839db7eb-8eb3-5367-dc18-e44fa5182435">
+      <Execution id="bf408a52-2dbc-48b3-b93b-884422d320f2" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="d341dfc2-009b-bf3b-0e05-41670d06ee4e">
+      <Execution id="4f3b6d47-cdfa-4c83-99b3-97f97baeadcd" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.HomeControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="b79c5550-412d-4bd3-ab6b-6c5b4508f045">
+      <Execution id="6ba4be48-3cab-4341-83f8-58875c5cff6a" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Controllers.AccountControllerTest, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="07022018-9b8d-7b34-1206-f302a806f992" executionId="fc2b4dd6-f777-4357-89c0-f5027501616c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fa92ca5-d87c-04ec-94ba-8c57dbd11221" executionId="0d01df9e-427c-47c1-9691-27a9baf4cc84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2168cec1-28d9-02ec-cb45-1e2e364559d9" executionId="ec1f5aeb-1ea4-4293-96b5-c6ab5d88d71b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39225342-3ad1-fb0f-938e-575748c28a43" executionId="5035a20a-20c6-479f-95fc-b1b0e1637693" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7770dd85-cc99-ab76-fc48-0f40e00b6d62" executionId="ab23f659-53a4-48f9-af11-e19462939a21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a4694ca-6ad6-3dde-2905-1103642c9e33" executionId="07c77321-7838-429d-9b4b-da9704f2bf32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="839db7eb-8eb3-5367-dc18-e44fa5182435" executionId="bf408a52-2dbc-48b3-b93b-884422d320f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a8dc1a1-16a9-f293-e157-1c8af0b24583" executionId="d3958bf0-8ddf-4005-a7af-80446d863789" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" executionId="046423d5-4b4c-438d-b758-cb45d6df13a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac594a04-d428-3df0-6312-7e375af031f8" executionId="8b2d0257-285d-4707-b025-39fe6c8aa214" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b79c5550-412d-4bd3-ab6b-6c5b4508f045" executionId="6ba4be48-3cab-4341-83f8-58875c5cff6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c164f56f-3d51-cbd3-d2fd-f9ce588d7ead" executionId="44a9a785-93d1-4ee2-8c71-4e56ba4a2531" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1666556-e7b3-b013-7e6e-74dfa6c8e65b" executionId="bc963c9f-9e20-4a14-8090-ad42853c16fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3135ccd-2364-dda3-2269-82afed583016" executionId="be763433-ac13-46d1-9544-a416d55f4a67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceb14b20-2118-1ef5-3d4b-f3eafb6ed397" executionId="e440b268-3045-4823-8b72-30067102b033" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1cb6185-b07b-8643-4246-b191d0a7f8c8" executionId="5ce065b8-122d-4af9-a588-28b54ab38db1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2ceca80-fe91-0a46-7781-ab0a2a2b4e27" executionId="d55d68f4-7ec2-46a9-865b-605865e3b3a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d341dfc2-009b-bf3b-0e05-41670d06ee4e" executionId="4f3b6d47-cdfa-4c83-99b3-97f97baeadcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc711f06-458d-174d-1871-b753f6f7737a" executionId="efaa0a30-970a-4df8-886b-567dd4d307d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0d27ebb-ab90-6625-a725-b12e034b23d1" executionId="0287c60d-ef53-414e-95d5-885dacbcc919" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fc2b4dd6-f777-4357-89c0-f5027501616c" testId="07022018-9b8d-7b34-1206-f302a806f992" testName="LogOn_Get_ReturnsView" computerName="LEONARDO-PC" duration="00:00:00.3360409" startTime="2011-03-06T17:34:57.0256055-03:00" endTime="2011-03-06T17:34:57.8736540-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc2b4dd6-f777-4357-89c0-f5027501616c">
+    </UnitTestResult>
+    <UnitTestResult executionId="0d01df9e-427c-47c1-9691-27a9baf4cc84" testId="0fa92ca5-d87c-04ec-94ba-8c57dbd11221" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="LEONARDO-PC" duration="00:00:00.2476221" startTime="2011-03-06T17:34:57.8846547-03:00" endTime="2011-03-06T17:34:58.1416694-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d01df9e-427c-47c1-9691-27a9baf4cc84">
+    </UnitTestResult>
+    <UnitTestResult executionId="ec1f5aeb-1ea4-4293-96b5-c6ab5d88d71b" testId="2168cec1-28d9-02ec-cb45-1e2e364559d9" testName="Register_Get_ReturnsView" computerName="LEONARDO-PC" duration="00:00:00.0031536" startTime="2011-03-06T17:34:58.1546701-03:00" endTime="2011-03-06T17:34:58.1656707-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec1f5aeb-1ea4-4293-96b5-c6ab5d88d71b">
+    </UnitTestResult>
+    <UnitTestResult executionId="5035a20a-20c6-479f-95fc-b1b0e1637693" testId="39225342-3ad1-fb0f-938e-575748c28a43" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="LEONARDO-PC" duration="00:00:00.0754420" startTime="2011-03-06T17:34:58.1696710-03:00" endTime="2011-03-06T17:34:58.2556759-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5035a20a-20c6-479f-95fc-b1b0e1637693">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab23f659-53a4-48f9-af11-e19462939a21" testId="7770dd85-cc99-ab76-fc48-0f40e00b6d62" testName="About" computerName="LEONARDO-PC" duration="00:00:00.0008938" startTime="2011-03-06T17:34:58.2606762-03:00" endTime="2011-03-06T17:34:58.2696767-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab23f659-53a4-48f9-af11-e19462939a21">
+    </UnitTestResult>
+    <UnitTestResult executionId="07c77321-7838-429d-9b4b-da9704f2bf32" testId="7a4694ca-6ad6-3dde-2905-1103642c9e33" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="LEONARDO-PC" duration="00:00:00.0027811" startTime="2011-03-06T17:34:58.2756770-03:00" endTime="2011-03-06T17:34:58.2856776-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07c77321-7838-429d-9b4b-da9704f2bf32">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf408a52-2dbc-48b3-b93b-884422d320f2" testId="839db7eb-8eb3-5367-dc18-e44fa5182435" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="LEONARDO-PC" duration="00:00:00.0025773" startTime="2011-03-06T17:34:58.2916779-03:00" endTime="2011-03-06T17:34:58.3016785-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf408a52-2dbc-48b3-b93b-884422d320f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="d3958bf0-8ddf-4005-a7af-80446d863789" testId="9a8dc1a1-16a9-f293-e157-1c8af0b24583" testName="LogOff_LogsOutAndRedirects" computerName="LEONARDO-PC" duration="00:00:00.0009128" startTime="2011-03-06T17:34:58.3076789-03:00" endTime="2011-03-06T17:34:58.3156793-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3958bf0-8ddf-4005-a7af-80446d863789">
+    </UnitTestResult>
+    <UnitTestResult executionId="046423d5-4b4c-438d-b758-cb45d6df13a6" testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" testName="Informar_usuario_e_senha_validos_e_efetuar_o_login" computerName="LEONARDO-PC" duration="00:00:00.3669443" startTime="2011-03-06T17:34:58.3216797-03:00" endTime="2011-03-06T17:34:58.6957010-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="046423d5-4b4c-438d-b758-cb45d6df13a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b2d0257-285d-4707-b025-39fe6c8aa214" testId="ac594a04-d428-3df0-6312-7e375af031f8" testName="LogOn_Post_ReturnsRedirectToHomeOnSuccess_WithExternalReturnUrl" computerName="LEONARDO-PC" duration="00:00:00.0008886" startTime="2011-03-06T17:34:58.7017014-03:00" endTime="2011-03-06T17:34:58.7107019-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b2d0257-285d-4707-b025-39fe6c8aa214">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ba4be48-3cab-4341-83f8-58875c5cff6a" testId="b79c5550-412d-4bd3-ab6b-6c5b4508f045" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="LEONARDO-PC" duration="00:00:00.0012750" startTime="2011-03-06T17:34:58.7157022-03:00" endTime="2011-03-06T17:34:58.7247027-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ba4be48-3cab-4341-83f8-58875c5cff6a">
+    </UnitTestResult>
+    <UnitTestResult executionId="44a9a785-93d1-4ee2-8c71-4e56ba4a2531" testId="c164f56f-3d51-cbd3-d2fd-f9ce588d7ead" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="LEONARDO-PC" duration="00:00:00.0005961" startTime="2011-03-06T17:34:58.7297030-03:00" endTime="2011-03-06T17:34:58.7387035-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44a9a785-93d1-4ee2-8c71-4e56ba4a2531">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc963c9f-9e20-4a14-8090-ad42853c16fa" testId="c1666556-e7b3-b013-7e6e-74dfa6c8e65b" testName="ChangePassword_Get_ReturnsView" computerName="LEONARDO-PC" duration="00:00:00.0033948" startTime="2011-03-06T17:34:58.7427037-03:00" endTime="2011-03-06T17:34:58.7527043-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc963c9f-9e20-4a14-8090-ad42853c16fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="be763433-ac13-46d1-9544-a416d55f4a67" testId="c3135ccd-2364-dda3-2269-82afed583016" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="LEONARDO-PC" duration="00:00:00.0157629" startTime="2011-03-06T17:34:58.7557045-03:00" endTime="2011-03-06T17:34:58.7787058-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be763433-ac13-46d1-9544-a416d55f4a67">
+    </UnitTestResult>
+    <UnitTestResult executionId="e440b268-3045-4823-8b72-30067102b033" testId="ceb14b20-2118-1ef5-3d4b-f3eafb6ed397" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="LEONARDO-PC" duration="00:00:00.0012032" startTime="2011-03-06T17:34:58.7817060-03:00" endTime="2011-03-06T17:34:58.7897064-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e440b268-3045-4823-8b72-30067102b033">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ce065b8-122d-4af9-a588-28b54ab38db1" testId="d1cb6185-b07b-8643-4246-b191d0a7f8c8" testName="ChangePasswordSuccess_ReturnsView" computerName="LEONARDO-PC" duration="00:00:00.0030524" startTime="2011-03-06T17:34:58.7927066-03:00" endTime="2011-03-06T17:34:58.8117077-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ce065b8-122d-4af9-a588-28b54ab38db1">
+    </UnitTestResult>
+    <UnitTestResult executionId="d55d68f4-7ec2-46a9-865b-605865e3b3a7" testId="d2ceca80-fe91-0a46-7781-ab0a2a2b4e27" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithLocalReturnUrl" computerName="LEONARDO-PC" duration="00:00:00.0025985" startTime="2011-03-06T17:34:58.8177080-03:00" endTime="2011-03-06T17:34:58.8287087-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d55d68f4-7ec2-46a9-865b-605865e3b3a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f3b6d47-cdfa-4c83-99b3-97f97baeadcd" testId="d341dfc2-009b-bf3b-0e05-41670d06ee4e" testName="Index" computerName="LEONARDO-PC" duration="00:00:00.0759179" startTime="2011-03-06T17:34:58.8347090-03:00" endTime="2011-03-06T17:34:58.9177137-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f3b6d47-cdfa-4c83-99b3-97f97baeadcd">
+    </UnitTestResult>
+    <UnitTestResult executionId="efaa0a30-970a-4df8-886b-567dd4d307d4" testId="dc711f06-458d-174d-1871-b753f6f7737a" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="LEONARDO-PC" duration="00:00:00.0007420" startTime="2011-03-06T17:34:58.9237141-03:00" endTime="2011-03-06T17:34:58.9327146-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efaa0a30-970a-4df8-886b-567dd4d307d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="0287c60d-ef53-414e-95d5-885dacbcc919" testId="f0d27ebb-ab90-6625-a725-b12e034b23d1" testName="Informar_usuario_e_ou_senha_invalidos_e_efetuar_falha_no_login" computerName="LEONARDO-PC" duration="00:00:00.0073286" startTime="2011-03-06T17:34:58.9387149-03:00" endTime="2011-03-06T17:34:58.9567160-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0287c60d-ef53-414e-95d5-885dacbcc919">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d214c248-0fdb-44fc-8921-6ca2ac1306c1" name="Leonardo@LEONARDO-PC 2011-03-06 18:26:45" runUser="Leonardo-PC\Leonardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="a09f9c9b-38e1-4260-96ac-4e94a5212dbb">
+    <Deployment runDeploymentRoot="Leonardo_LEONARDO-PC 2011-03-06 18_26_45">
+      <DeploymentItem filename="c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC\bin\ArtigoTDD_TCC.dll" />
+      <DeploymentItem filename="c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-03-06T18:26:45.2473826-03:00" queuing="2011-03-06T18:26:45.4693953-03:00" start="2011-03-06T18:26:45.4933967-03:00" finish="2011-03-06T18:26:46.6434625-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Informar_Usuario_E_Efetuar_Logoff" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="ad8bd9d5-5cb5-c94b-be17-dffd70a4919f">
+      <Execution id="59935dcf-1229-43c3-91e1-3e74bdc6b2ce" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_Usuario_E_Efetuar_Logoff" />
+    </UnitTest>
+    <UnitTest name="Informar_usuario_e_ou_senha_em_branco_ou_null_e_retornar_exception" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="44ce6f3f-3b54-4144-8d33-c4bfbf80afcf">
+      <Execution id="21eb8658-9e06-4162-ac6e-bc4c3b791e55" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_usuario_e_ou_senha_em_branco_ou_null_e_retornar_exception" />
+    </UnitTest>
+    <UnitTest name="Informar_usuario_e_senha_validos_e_efetuar_o_login" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05">
+      <Execution id="c30de076-8fb3-4a58-bb34-5b0d846f0862" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_usuario_e_senha_validos_e_efetuar_o_login" />
+    </UnitTest>
+    <UnitTest name="Informar_usuario_e_ou_senha_invalidos_e_efetuar_falha_no_login" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="f0d27ebb-ab90-6625-a725-b12e034b23d1">
+      <Execution id="eca5154e-753e-4641-aab0-b3040689d839" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_usuario_e_ou_senha_invalidos_e_efetuar_falha_no_login" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="44ce6f3f-3b54-4144-8d33-c4bfbf80afcf" executionId="21eb8658-9e06-4162-ac6e-bc4c3b791e55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" executionId="c30de076-8fb3-4a58-bb34-5b0d846f0862" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad8bd9d5-5cb5-c94b-be17-dffd70a4919f" executionId="59935dcf-1229-43c3-91e1-3e74bdc6b2ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0d27ebb-ab90-6625-a725-b12e034b23d1" executionId="eca5154e-753e-4641-aab0-b3040689d839" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="21eb8658-9e06-4162-ac6e-bc4c3b791e55" testId="44ce6f3f-3b54-4144-8d33-c4bfbf80afcf" testName="Informar_usuario_e_ou_senha_em_branco_ou_null_e_retornar_exception" computerName="LEONARDO-PC" duration="00:00:00.0292969" startTime="2011-03-06T18:26:45.5423995-03:00" endTime="2011-03-06T18:26:46.0434282-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21eb8658-9e06-4162-ac6e-bc4c3b791e55">
+    </UnitTestResult>
+    <UnitTestResult executionId="c30de076-8fb3-4a58-bb34-5b0d846f0862" testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" testName="Informar_usuario_e_senha_validos_e_efetuar_o_login" computerName="LEONARDO-PC" duration="00:00:00.4505502" startTime="2011-03-06T18:26:46.0504286-03:00" endTime="2011-03-06T18:26:46.5174553-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c30de076-8fb3-4a58-bb34-5b0d846f0862">
+    </UnitTestResult>
+    <UnitTestResult executionId="59935dcf-1229-43c3-91e1-3e74bdc6b2ce" testId="ad8bd9d5-5cb5-c94b-be17-dffd70a4919f" testName="Informar_Usuario_E_Efetuar_Logoff" computerName="LEONARDO-PC" duration="00:00:00.0361900" startTime="2011-03-06T18:26:46.5204555-03:00" endTime="2011-03-06T18:26:46.5684582-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59935dcf-1229-43c3-91e1-3e74bdc6b2ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ArtigoTDD_TCC.Tests.Dominio.Login_Testes.Informar_Usuario_E_Efetuar_Logoff threw exception: 
+System.Exception: Campo usuário e ou senha está vazio.</Message>
+          <StackTrace>    at ArtigoTDD_TCC.Tests.Dominio.Login..ctor(String usuario, String senha) in c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\Dominio\Login.cs:line 16
+   at ArtigoTDD_TCC.Tests.Dominio.Login_Testes.Informar_Usuario_E_Efetuar_Logoff() in c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\Dominio\Login_Testes.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eca5154e-753e-4641-aab0-b3040689d839" testId="f0d27ebb-ab90-6625-a725-b12e034b23d1" testName="Informar_usuario_e_ou_senha_invalidos_e_efetuar_falha_no_login" computerName="LEONARDO-PC" duration="00:00:00.0059179" startTime="2011-03-06T18:26:46.5834591-03:00" endTime="2011-03-06T18:26:46.5974599-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eca5154e-753e-4641-aab0-b3040689d839">
+    </UnitTestResult>
+  </Results>
+</TestRun>

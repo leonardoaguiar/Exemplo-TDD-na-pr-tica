@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="be6fc494-82eb-4dbf-bc17-75f392aaeb0e" name="Leonardo@LEONARDO-PC 2011-03-06 15:53:32" runUser="Leonardo-PC\Leonardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e5160490-9fd3-4434-afea-e2e3b0eb04be">
+    <Deployment runDeploymentRoot="Leonardo_LEONARDO-PC 2011-03-06 15_53_32">
+      <DeploymentItem filename="c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC\bin\ArtigoTDD_TCC.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-03-06T15:53:32.5197683-03:00" queuing="2011-03-06T15:53:35.9724495-03:00" start="2011-03-06T15:53:36.2964664-03:00" finish="2011-03-06T15:53:37.9905633-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Informar_usuario_e_senha_validos_e_efetuar_o_login" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05">
+      <Execution id="dd05068d-43be-47c6-9018-ef6d9a35595e" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_usuario_e_senha_validos_e_efetuar_o_login" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" executionId="dd05068d-43be-47c6-9018-ef6d9a35595e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dd05068d-43be-47c6-9018-ef6d9a35595e" testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" testName="Informar_usuario_e_senha_validos_e_efetuar_o_login" computerName="LEONARDO-PC" duration="00:00:00.2251119" startTime="2011-03-06T15:53:36.4204735-03:00" endTime="2011-03-06T15:53:37.8185534-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd05068d-43be-47c6-9018-ef6d9a35595e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ArtigoTDD_TCC.Tests.Dominio.Login_Testes.Informar_usuario_e_senha_validos_e_efetuar_o_login threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at ArtigoTDD_TCC.Tests.Dominio.Login.Validar() in c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\Dominio\Login.cs:line 21
+   at ArtigoTDD_TCC.Tests.Dominio.Login_Testes.Informar_usuario_e_senha_validos_e_efetuar_o_login() in c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\Dominio\Login_Testes.cs:line 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

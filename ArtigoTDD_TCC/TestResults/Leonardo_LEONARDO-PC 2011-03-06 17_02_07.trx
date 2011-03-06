@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5bf43783-418c-4612-9a61-e66fce3239db" name="Leonardo@LEONARDO-PC 2011-03-06 17:02:07" runUser="Leonardo-PC\Leonardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="8f4b513f-37c1-424f-b6af-7e6780bcd015">
+    <Deployment runDeploymentRoot="Leonardo_LEONARDO-PC 2011-03-06 17_02_07">
+      <DeploymentItem filename="c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC\bin\ArtigoTDD_TCC.dll" />
+      <DeploymentItem filename="c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-03-06T17:02:07.9536040-03:00" queuing="2011-03-06T17:02:08.2656218-03:00" start="2011-03-06T17:02:08.3726280-03:00" finish="2011-03-06T17:02:09.6179479-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Informar_usuario_e_senha_validos_e_efetuar_o_login" storage="c:\users\leonardo\documents\visual studio 2010\projects\artigotdd_tcc\artigotdd_tcc.tests\bin\debug\artigotdd_tcc.tests.dll" id="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05">
+      <Execution id="6b76fc41-cdff-45f2-b88b-4b4d0ad1451e" />
+      <TestMethod codeBase="c:/users/leonardo/documents/visual studio 2010/Projects/ArtigoTDD_TCC/ArtigoTDD_TCC.Tests/bin/Debug/ArtigoTDD_TCC.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArtigoTDD_TCC.Tests.Dominio.Login_Testes, ArtigoTDD_TCC.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Informar_usuario_e_senha_validos_e_efetuar_o_login" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" executionId="6b76fc41-cdff-45f2-b88b-4b4d0ad1451e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6b76fc41-cdff-45f2-b88b-4b4d0ad1451e" testId="9ce58a3a-6ac1-4335-0c94-9bf74f7f5c05" testName="Informar_usuario_e_senha_validos_e_efetuar_o_login" computerName="LEONARDO-PC" duration="00:00:00.6300303" startTime="2011-03-06T17:02:08.3906290-03:00" endTime="2011-03-06T17:02:09.5529442-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b76fc41-cdff-45f2-b88b-4b4d0ad1451e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,11 @@
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.Tests.dll.config
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.Tests.dll
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.Tests.pdb
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.dll
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.pdb
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\obj\Debug\ArtigoTDD_TCC.Tests.dll
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\obj\Debug\ArtigoTDD_TCC.Tests.pdb
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.dll
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.pdb
+c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.xml
