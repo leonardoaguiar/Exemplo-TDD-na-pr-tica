@@ -24,6 +24,7 @@ namespace ArtigoTDD_TCC.Tests.Dominio
         public void Informar_Usuario_E_Efetuar_Logoff()
         {
             // Variavel.
+            // Mais uma variavel.
             var usuario = "administrador";
 
             Mock<IWebServiceLogin> webService = new Mock<IWebServiceLogin>(MockBehavior.Loose);
