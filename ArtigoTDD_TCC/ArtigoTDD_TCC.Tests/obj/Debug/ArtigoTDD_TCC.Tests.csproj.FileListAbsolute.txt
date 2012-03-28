@@ -9,3 +9,14 @@ c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_
 c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.dll
 c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.pdb
 c:\users\leonardo\documents\visual studio 2010\Projects\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.xml
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.Tests.dll.config
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.Tests.dll
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.Tests.pdb
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.dll
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.dll
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\ArtigoTDD_TCC.pdb
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.pdb
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\bin\Debug\Moq.xml
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\obj\Debug\ArtigoTDD_TCC.Tests.dll
+C:\Git\Exemplo-TDD-na-pr-tica\ArtigoTDD_TCC\ArtigoTDD_TCC.Tests\obj\Debug\ArtigoTDD_TCC.Tests.pdb

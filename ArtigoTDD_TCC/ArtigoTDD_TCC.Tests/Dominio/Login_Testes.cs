@@ -24,7 +24,8 @@ namespace ArtigoTDD_TCC.Tests.Dominio
         public void Informar_Usuario_E_Efetuar_Logoff()
         {
             // Testando o Git de casa.
-            var usuario = "administrador";
+            // Testando o Git do Trabalho.
+            var usuario = "leonardoaoguiar";
 
             Mock<IWebServiceLogin> webService = new Mock<IWebServiceLogin>(MockBehavior.Loose);
             webService.Setup(w => w.LogOff(usuario));
