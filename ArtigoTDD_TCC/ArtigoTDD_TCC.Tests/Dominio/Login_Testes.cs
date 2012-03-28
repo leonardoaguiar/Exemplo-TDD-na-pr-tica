@@ -25,7 +25,7 @@ namespace ArtigoTDD_TCC.Tests.Dominio
         {
             // Testando o Git de casa.
             // Testando o Git do Trabalho.
-            var usuario = "leonardoaoguiar";
+            var usuario = "leonardoRIBEIROaguiar";
 
             Mock<IWebServiceLogin> webService = new Mock<IWebServiceLogin>(MockBehavior.Loose);
             webService.Setup(w => w.LogOff(usuario));
